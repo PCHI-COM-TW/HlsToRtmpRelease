@@ -25,17 +25,18 @@
 
 ## 運行方式二 (即註冊進windows名為HlsToRtmp的服務)
    1.執行register.bat (若修改port要改binpath=的內容加 -p 8001，即對應Port 8001)
-　 2.執行start.bat
+   2.執行start.bat
 
 
 ## API接收內容
 
 >JSON接收內容
-> [
->　 {
->　　"key":"識別Key (影片id)", 
->　　"src":"來源(HLS)",
->　　"dst":"目的(RTMP)"
->　}
-> ]
-
+```json
+[
+ {
+  "key":"識別Key (影片id)",
+  "src":"來源(HLS)",
+  "dst":"目的(RTMP)"
+ }
+]
+```
