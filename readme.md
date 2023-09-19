@@ -24,8 +24,8 @@
        HlsToRtmp -p 8001 (改為8001監聽)
 
 ## 運行方式二 (即註冊進windows名為HlsToRtmp的服務)
-   1.執行register.bat (若修改port要改binpath=的內容加 -p 8001，即對應Port 8001)
-   2.執行start.bat
+1. 執行register.bat (若修改port要改binpath=的內容加 -p 8001，即對應Port 8001)
+2. 執行start.bat
 
 
 ## API接收內容
